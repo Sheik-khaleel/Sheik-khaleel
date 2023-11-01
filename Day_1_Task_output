@@ -1,0 +1,24 @@
+root@ip-172-31-13-147:~/shellscripts# sh day1task.sh 
+This is my shell script file
+My name is sheik khaleel, and my role is DevOps Engineer
+This is sheik khaleel, DevOps Engineer! having around 1.5 years of Exeperiance
+Current User: root
+Current Date and Time: Wed Nov  1 09:09:16 UTC 2023
+System Hostname: 
+My current bash path - 
+Bash version I am using - 
+PID of bash I am running - 9358
+My home directory - /root
+Where am I currently? - /root/shellscripts
+My hostname - 
+My current logged in user - root
+My LOGNAME is - root
+My Language is - C.UTF-8
+My terminal is - xterm
+My Shell is - /bin/bash
+List of all files present in the current directory with .txt extentions
+test1.txt  test2.txt  test3.txt
+List of all files present in custom directory with .kk extentions
+/root/khaleel/test/file10.kk  /root/khaleel/test/file12.kk  /root/khaleel/test/file8.kk
+/root/khaleel/test/file11.kk  /root/khaleel/test/file7.kk   /root/khaleel/test/file9.kk
+Thank you!!!
