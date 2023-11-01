@@ -1,0 +1,39 @@
+#!/bin/bash
+
+#Task 1 : Line Comments
+#This is my shell script practice file!
+
+
+#Task 2 : ECHO Command
+echo "This is my shell script file"
+
+#Task 3 : Variables 
+name="sheik khaleel"
+from="i am form khammam"
+role="DevOps Engineer"
+
+#Task 4 : Using variables
+echo "My name is ${name}, and my role is ${role}"
+MultipleVaraibles="$name, $role!"
+echo "This is ${MultipleVaraibles} having around 1.5 years of Exeperiance"
+
+#Task 5 : Using Built-in Variables
+echo "My current bash path - $BASH"
+echo "Bash version I am using - $BASH_VERSION"
+echo "PID of bash I am running - $$"
+echo "My home directory - $HOME"
+echo "Where am I currently? - $PWD"
+echo "My hostname - $HOSTNAME"
+echo "My current logged in user - $USER"
+echo "My LOGNAME is - $LOGNAME"
+echo "My Language is - $LANG"
+echo "My terminal is - $TERM"
+echo "My Shell is - $SHELL"
+
+#Task 6 : Wildcards
+echo "List of all files present in the current directory with .txt extentions"
+ls *txt
+echo "List of all files present in custom directory with .kk extentions"
+ls /root/khaleel/test/*.kk
+
+echo "Thank you!!!"
