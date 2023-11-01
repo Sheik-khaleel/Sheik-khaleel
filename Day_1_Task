@@ -18,6 +18,14 @@ MultipleVaraibles="$name, $role!"
 echo "This is ${MultipleVaraibles} having around 1.5 years of Exeperiance"
 
 #Task 5 : Using Built-in Variables
+current_user="$USER" #get current user name
+current_date_time="$(date)" #get current date
+system_hostname="$HOSTNAME" #get system hostname
+
+echo "Current User: $current_user"
+echo "Current Date and Time: $current_date_time"
+echo "System Hostname: $system_hostname"
+
 echo "My current bash path - $BASH"
 echo "Bash version I am using - $BASH_VERSION"
 echo "PID of bash I am running - $$"
